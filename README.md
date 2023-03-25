@@ -1,5 +1,6 @@
 # movie-app
 This project is related to the topic.
+
 Technology stack
       Java 17
       Gradle
