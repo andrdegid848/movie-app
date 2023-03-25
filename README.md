@@ -1,5 +1,5 @@
 # movie-app
-This project is related to the topic.
+This project is related to the theme of films
 
 Technology stack
 
