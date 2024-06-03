@@ -1,5 +1,6 @@
 ext {
     versions = [
-            lombok: '1.18.26'
+            lombok: '1.18.26',
+            testcontainers: '1.19.8'
     ]
 }

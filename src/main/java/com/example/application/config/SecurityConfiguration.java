@@ -23,6 +23,8 @@ public class SecurityConfiguration {
                 .requestMatchers(HttpMethod.GET).permitAll()
                 .anyRequest().hasAuthority(ADMIN.getAuthority())
                 .and()
+                .logout(logout -> logout
+                        .deleteCookies("JSESSIONID"))
                 .formLogin(login -> login
                         .defaultSuccessUrl("/api/v1/users"))
                 .httpBasic();
